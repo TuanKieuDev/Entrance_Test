@@ -4,5 +4,5 @@ function findOppositeNumber(n, inputNumber) {
     else return a-n;
 }
 
-let x = findOppositeNumber(6,0);
+let x = findOppositeNumber(10,6);
 console.log(x);

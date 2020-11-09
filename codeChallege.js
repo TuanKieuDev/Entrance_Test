@@ -12,7 +12,7 @@ function Guess() {
         alert("Bạn đã dự đoán đúng, số may mắn lần này là: "+y);a=1;
     }
     else {
-        alert("Sai rồi! Bạn đen lắm");
+        alert("Sai rồi! Đừng bỏ cuộc");
     }
     } 
 }
@@ -21,7 +21,7 @@ let k = 0;
 function count() {
     Guess();
     k++;
-    if(k==3&&a==0) alert("Chúc bạn may mắn lần sau, kết quả là: "+y);
+    if(k==3&&a==0) alert("Chúc bạn may mắn lần sau, đã đoán tối đa 3 lần, số may mắn là: "+y);
 }
 
 
