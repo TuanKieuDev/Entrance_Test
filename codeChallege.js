@@ -19,9 +19,9 @@ function Guess() {
 
 let k = 0;
 function count() {
-    Guess();
+    if(k<3) Guess();
     k++;
-    if(k==3&&a==0) alert("Chúc bạn may mắn lần sau, đã đoán tối đa 3 lần, số may mắn là: "+y);
+    if(k>=3&&a==0) alert("Chúc bạn may mắn lần sau, đã đoán tối đa 3 lần, số may mắn là: "+y);
 }
 
 
