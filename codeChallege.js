@@ -5,7 +5,7 @@ function Guess() {
     let x = document.getElementById('may_man');
     let m = x.value;
     if(m>10||m<0){
-        alert("Sai quy định, nhập lại từ 1 đến 10");
+        alert("Sai quy định, nhập lại từ 1 đến 10");k--;
     }
     else{
     if(m==y) {
